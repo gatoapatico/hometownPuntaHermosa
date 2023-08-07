@@ -1,0 +1,125 @@
+/*
+#D3D0AF
+#0E8578
+#4B4E37
+#766D57
+#8BA6AF
+*/
+@font-face{
+    src: url("OriginalSurfer-Regular.ttf");
+    font-family: "playa";
+}
+
+body {
+    margin: 0;
+    font-family: 'playa';
+    font-size: 20px;
+    color: #766D57;
+}
+
+h1 {
+    margin: 0;
+}
+
+.section {
+    height: 686px;
+}
+
+#section-first {
+    background-image: url("img/punta-hermosa.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f1faee;
+}
+
+#title {
+    background-color: #0E8578;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+#subtitle {
+    width: 650px;
+    background-color: #8BA6AF;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+#section-second {
+    background-color: #f1faee;
+    overflow: hidden;
+}
+
+#title-section2 {
+    padding: 40px 0 60px 0;
+    text-align: center;
+}
+
+#activities {
+    display: flex;
+    justify-content: space-around;
+}
+
+.activity {
+    width: 400px;
+    text-align: center;
+}
+
+.img-activity {
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 5px black;
+}
+
+.img-activity:hover {
+    box-shadow: 0px 0px 15px black;
+}
+
+#surf {
+    background-image: url("img/surf.jpg");
+
+}
+
+#donAngello {
+    background-image: url("img/donAngello.jpg");
+}
+
+#sunset {
+    background-image: url("img/sunset.jpg");
+}
+
+#section-third {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    width: 600px;
+    background-color: #0E8578;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 45px;
+    color: #f1faee;
+    border-bottom: 0px solid #0a413b;
+}
+
+#card:hover {
+    border-bottom: 10px solid #0a413b;
+}
+
+#foto {
+    width: 300px;
+    border-radius: 25px;
+}
